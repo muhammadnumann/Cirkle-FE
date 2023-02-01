@@ -1,0 +1,41 @@
+.subscribe {
+  background: var(--fg);
+  border-radius: 8px;
+  padding: 13px 24px;
+}
+
+.subscribe p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #6c9a00;
+}
+
+.emailheading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--ch);
+}
+
+.unsubscirbeHeader {
+  background: rgba(135, 46, 146, 0.1);
+  text-align: center;
+}
+
+.cancelbtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 0;
+  background: transparent;
+}
+
+.unsubscribeModal {
+  background: var(--fg);
+  box-shadow: 0px 11.1079px 33.3236px rgba(8, 15, 52, 0.06);
+  border-radius: 25px;
+  overflow: hidden;
+}

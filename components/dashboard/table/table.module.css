@@ -1,0 +1,94 @@
+.reach {
+  max-width: 164px;
+  max-height: 37px;
+}
+
+.table {
+  text-align: left;
+  font-weight: 500;
+  width: 100%;
+}
+
+.tbody {
+  margin: 18px;
+}
+
+.table tr th {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #87888c;
+  padding: 12px 0px 12px 18px;
+}
+
+.table tr {
+  border-bottom: 0.5px solid;
+  border-bottom-color: #87888c;
+}
+
+.table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.table .tbody tr .sr {
+  font-weight: 500;
+  font-size: 13px !important;
+  line-height: 16px;
+  color: var(--text-Nearly-black);
+  padding: 12px 0px 12px 18px;
+}
+
+.table tbody tr td {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: var(--text-Nearly-black);
+  padding: 12px 0px 12px 18px;
+}
+
+.topsale {
+  background: #21222d;
+  border-radius: 10px;
+}
+
+.topsale h2 {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.sales {
+  border: 0.5px solid;
+  border-radius: 4px;
+}
+
+.sale {
+  border-radius: 10px;
+  height: 100%;
+}
+
+.sale h2 {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.sale p {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #a0a0a0;
+}
+
+.prgoressbar {
+  background-color: #ffffff;
+  height: 3px;
+  border-radius: 3px;
+  transition: 0.5s ease-in-out;
+}
+
+.prgoressbar div {
+  height: 3px;
+  border-radius: 3px;
+}

@@ -1,0 +1,12 @@
+@media screen and (max-width: 575.98) {
+  #sidebar {
+    margin-right: 16px;
+    width: 44px !important;
+  }
+  .search_input {
+    display: none !important;
+  }
+  #sidebar .search_input {
+    display: none;
+  }
+}

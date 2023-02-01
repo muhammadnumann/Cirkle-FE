@@ -1,0 +1,143 @@
+.paginationBar {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  overflow: auto;
+}
+
+.paginationBar::-webkit-scrollbar-thumb {
+  background: #d3d3d3;
+  border-radius: 12px;
+}
+
+.paginationBar::-webkit-scrollbar {
+  width: 2px;
+  background: #fff;
+  border-radius: 12px;
+}
+
+.paginationBar a {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageNavButton {
+  display: flex;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.pageButton {
+  /* Light purple */
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.pageButton:nth-child(-n + 4) {
+  background: #ddede1;
+  color: #029f04;
+}
+
+.pageButton:nth-child(n + 5) {
+  background: #f6eee1;
+  color: #ffab00;
+}
+
+.pageButton:nth-child(n + 8) {
+  background: #f6e9e1;
+  color: #ff7a00;
+}
+
+.pageButton:nth-child(n + 10) {
+  background: #fee4df;
+  color: #ff3e1d;
+}
+
+/*  */
+.pageButton.selected:nth-child(-n + 4) {
+  background: #029f04;
+}
+
+.pageButton.selected:nth-child(n + 5) {
+  background: #ffab00;
+}
+
+.pageButton.selected:nth-child(n + 8) {
+  background: #ff7a00;
+}
+
+.pageButton.selected:nth-child(n + 10) {
+  background: #ff3e1d;
+}
+
+.pageButton.selected:nth-child(-n + 4) a {
+  color: #ddede1 !important;
+}
+
+.pageButton.selected:nth-child(n + 5) a {
+  color: #ffffff !important;
+}
+
+.pageButton.selected:nth-child(n + 8) a {
+  color: #f6e9e1 !important;
+}
+
+.pageButton.selected:nth-child(n + 10) a {
+  color: #fee4df !important;
+}
+
+.pageButton a {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  text-align: center;
+
+  /* Black */
+  color: #212121;
+}
+
+.pageButton a:hover {
+  text-decoration: none;
+}
+
+.pageButton.selected {
+  border-radius: 50%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  text-align: center;
+}
+
+.informationlabel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #697a8d;
+}
+
+.info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-Nearly-black);
+}

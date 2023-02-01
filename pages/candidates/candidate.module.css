@@ -1,0 +1,21 @@
+#page {
+  height: 100%;
+  display: grid;
+  grid-template:
+    'header' min-content
+    'table' minmax(0, 1fr) 'pagination' min-content
+    / 1fr;
+}
+
+#header {
+  grid-area: header;
+}
+
+.results {
+  grid-area: table;
+  overflow: auto;
+}
+
+#pagination {
+  grid-area: pagination;
+}

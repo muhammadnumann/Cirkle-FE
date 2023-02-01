@@ -1,0 +1,221 @@
+.sidebar {
+  grid-area: nav;
+  background: var(--fg);
+  max-width: 260px;
+  min-width: auto;
+  margin-bottom: 2em;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  font-style: normal;
+  list-style-type: none;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 20px 0px 0px 0px;
+  gap: 10px;
+  height: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+.sidebar.expanded {
+  width: 20vw;
+}
+
+.collapsed .sidebarRow {
+  column-gap: 0;
+  justify-content: center;
+}
+
+.collapsed .isSelected.sidebarRow {
+  justify-content: space-between;
+}
+
+.sidebar a {
+  color: var(--sc);
+  text-decoration: none;
+}
+
+.sidebarHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 51px;
+  margin-left: -12px;
+  margin-bottom: 10px;
+  margin-right: -22px;
+}
+
+#logo {
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  background: none;
+  opacity: 1;
+  border: 0px;
+  padding: 0px;
+  position: relative;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  padding-left: 15px;
+}
+
+#collapse {
+  overflow: visible;
+  padding-left: 20px;
+  margin-left: 0px;
+  padding: 0px;
+  z-index: 1;
+}
+
+.sidebarContainer {
+  list-style-type: none;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0px;
+  gap: 10px;
+}
+.CustomSidebarItems {
+  list-style-type: none;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  height: 125px;
+  padding: 0px 0px 0px 10px;
+  margin-bottom: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height, or 154% */
+  color: #a9aabc;
+  /* margin-right: 10px; */
+}
+.collapsed .sidebarContainer {
+  column-gap: 0;
+  /* align-items: center; */
+}
+
+.icon {
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.collapsed .icon {
+  margin-right: 0px;
+}
+
+.sidebarItem:hover {
+  background: var(--hc);
+  border-radius: 6px;
+}
+
+.sidebarItem.isSelected {
+  background: #0063da;
+  border-radius: 6px;
+}
+.sidebarItem.isSelected svg path {
+  fill: white !important;
+}
+
+.isSelected .description {
+  font-weight: 600;
+  font-size: 15px;
+  background: linear-gradient(139.76deg, #ffffff 17.15%, #ffffff 86.86%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+}
+.description {
+  color: #a9aabc !important;
+}
+.sidebarRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  /* width: 220px; */
+  height: 39px;
+  /* left: 0px;
+    top: 108px; */
+}
+
+.sidebarItem {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: flex-start;
+  border-radius: 6px;
+  gap: 10px;
+  justify-items: center;
+  padding: 8px 14px;
+  /* gap: 12px; */
+}
+
+.expanded .sidebarItem {
+  width: 90%;
+}
+
+.selectedMarker {
+  /* Rectangle */
+  width: 4px;
+  height: 100%;
+  /* Gradient */
+  background: linear-gradient(139.76deg, #0063da 17.15%, #0063da 86.86%);
+  /* Inside auto layout */
+  align-self: center;
+  justify-content: flex-end;
+  order: 1;
+  flex-grow: 0;
+  margin-left: 10px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+#sidebarMore {
+  list-style-type: none;
+  /* margin-top: 10%; */
+}
+
+#sidebarMore > p {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+#more {
+  height: 20px;
+  padding: 0px 20px;
+  margin-top: 1rem;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height, or 154% */
+  color: #a1acb8;
+}
+
+#invisible {
+  width: 4px;
+  height: 100%;
+  margin-right: auto;
+  visibility: hidden;
+}

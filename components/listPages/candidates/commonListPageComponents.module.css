@@ -1,0 +1,13 @@
+.fullName {
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.avatar {
+  margin-right: 16px;
+  height: auto;
+  width: 31px;
+  border-radius: 50%;
+}

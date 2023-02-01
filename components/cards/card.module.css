@@ -1,0 +1,26 @@
+.saleComponentSub {
+  background: var(--bg);
+  border-radius: 10px;
+  padding: 12px;
+  transition: 0.5s ease-in-out;
+}
+
+.saleComponentSub h3 {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--h3);
+}
+
+.saleComponentSub p {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: var(--text-Nearly-black);
+}
+
+.saleComponentSub span {
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 10px;
+}

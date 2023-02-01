@@ -1,0 +1,35 @@
+.inlineEdit {
+  background-color: transparent;
+  border: 0;
+  justify-self: left;
+}
+
+.inlineEdit:hover {
+  background-color: #ededed;
+  cursor: text;
+}
+
+.inlineEdit:focus {
+  outline: 5px auto Highlight; /* Firefox */
+  outline: 5px auto -webkit-focus-ring-color; /* Chrome, Safari */
+}
+
+.invalid .inlineEdit {
+  border: 2px solid #ff7d87;
+}
+
+.invalid {
+  color: red;
+  font-size: 0.875rem;
+  /* margin-top: 0.25rem; */
+}
+
+.inputItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.feedback {
+  align-self: center;
+}

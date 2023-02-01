@@ -1,0 +1,11 @@
+.saleComponent {
+  padding: 16px 20px 20px 20px;
+  background: var(--fg);
+  height: 100%;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.saleComponent h2 {
+  color: var(--h2);
+}

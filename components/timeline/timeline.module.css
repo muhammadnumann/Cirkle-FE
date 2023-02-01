@@ -1,0 +1,31 @@
+.dateHeadingCircle {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  position: absolute;
+  left: -23px;
+  top: 0px;
+}
+.dateHeading {
+  line-height: 1.2;
+  margin-left: 10px;
+}
+.dateDetailCircle {
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+  position: absolute;
+  left: -22px;
+  top: 5px;
+}
+.iconCircle {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+  position: absolute;
+  left: -72px;
+  top: -7px;
+  display: flex;
+  align-items: center;
+  place-content: center;
+}

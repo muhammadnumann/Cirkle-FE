@@ -1,0 +1,10 @@
+import TimeTracker from 'components/TimeTracker/TimeTracker';
+import React from 'react';
+
+export default function index() {
+  return (
+    <>
+      <TimeTracker />
+    </>
+  );
+}

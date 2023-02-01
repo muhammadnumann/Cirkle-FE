@@ -1,0 +1,77 @@
+#listHeader {
+  background: var(--fg);
+  border-radius: 6px;
+  height: 43px;
+}
+
+#listHeader th:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+#listHeader th:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.listHeaderItem {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Dark grey */
+  color: #697a8d;
+  white-space: nowrap;
+}
+
+.listHeaderItem > span {
+  padding-right: 8px;
+}
+
+.listRow {
+  height: 43px;
+}
+
+.listRow th:first-child {
+  padding-left: 30px;
+}
+
+.listRow th:last-child,
+.listRow td:last-child {
+  padding-right: 30px;
+}
+
+#list {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 6px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.listRowItem {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0px 2.5px;
+
+  /* Black */
+  color: #212121;
+}
+
+.sortIcon {
+  overflow: visible;
+}

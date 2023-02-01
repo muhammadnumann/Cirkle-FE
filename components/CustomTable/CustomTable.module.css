@@ -1,0 +1,107 @@
+.main {
+  width: 97%;
+  background-color: #ffffff;
+  margin: 0;
+  border-radius: 10px 10px 0px 0px !important;
+}
+.thead {
+  border-collapse: collapse !important;
+  /* background: #444655; */
+}
+
+.main thead:nth-child(1) {
+  background: #444655;
+}
+.main .thead tr th p {
+  padding: 7.68px 13.44px;
+  text-align: center;
+  margin: 0.2rem;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+.header_first_element {
+  font-family: Poppins;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  line-height: 22px !important;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header_active_element {
+  background: #30323d !important;
+  box-shadow: inset 0px 3.84px 3.84px rgba(0, 0, 0, 0.25);
+}
+
+.green_bg {
+  background: #23c197 !important;
+}
+
+.green_color {
+  color: #23c197 !important;
+}
+
+.project_task {
+  background: #ffefca !important;
+  border-radius: 96px;
+  padding: 7.68px 27.439999999999998px;
+  color: #444655;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: revert;
+  /* margin: 15px; */
+}
+.p {
+  background: #eaf3ff;
+  border-radius: 96px;
+  color: #444655;
+  width: fit-content !important;
+  padding: 7.68px 23.44px;
+  text-align: -webkit-center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  margin: revert;
+}
+
+.tbody tr:nth-child(even) {
+  background-color: #eef6ff !important ;
+}
+.tbody tr:nth-child(even) td p {
+  background-color: #fff;
+}
+.tbody tr td:nth-last-child(1) p,
+.tbody tr:nth-last-child(1) td p {
+  color: #23c197 !important;
+  background: transparent !important;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+}
+.tbody tr td:nth-last-child(2) p {
+  margin-top: 20px;
+}
+
+.tbody tr:nth-last-child(1) td:first-child p {
+  color: #30323d;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+}
+.removeRow {
+  margin-top: 20px;
+}

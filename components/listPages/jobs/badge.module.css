@@ -1,0 +1,62 @@
+.badge {
+  mix-blend-mode: normal;
+  border-radius: 100px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  text-transform: uppercase;
+
+  padding: 2px 9.5px;
+  white-space: nowrap;
+}
+
+.statusBadge {
+  min-width: 100%;
+}
+
+.unassigned {
+  background: rgba(105, 122, 141, 0.1);
+  color: #697a8d;
+}
+.open {
+  background: rgba(105, 108, 255, 0.1);
+  color: #696cff;
+}
+.inProgress {
+  background: rgba(255, 171, 0, 0.1);
+  color: #ffab00;
+}
+.waitingOnClient {
+  background: rgba(255, 122, 0, 0.1);
+  color: #ff7a00;
+}
+.completed {
+  background: rgba(2, 159, 4, 0.1);
+  color: #029f04;
+}
+
+.descriptionBadge {
+  width: 40%;
+}
+
+.descriptionFalse {
+  background: rgba(252, 184, 89, 0.16);
+  color: #ffab00;
+}
+
+.descriptionTrue {
+  color: #029f04;
+  background: rgba(2, 159, 4, 0.16);
+}
+
+.openingsBadge {
+  background: rgba(105, 108, 255, 0.16);
+  color: #696cff;
+
+  width: 54px;
+}

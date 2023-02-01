@@ -1,0 +1,230 @@
+.candidateSidebar {
+  background: var(--fg);
+  width: 248px;
+  margin-bottom: 2em;
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  font-style: normal;
+  list-style-type: none;
+  /* Auto layout */
+  padding: 20px 0px 0px 0px;
+  gap: 10px;
+  transition: 0.5s ease-in-out;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: fit-content;
+  grid-area: 1/1/2/2;
+}
+
+.candidateSidebar a {
+  color: #697a8d;
+  text-decoration: none;
+}
+
+.candidateSidebarHeader {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #212121;
+  align-items: center;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+}
+
+.candidateSidebarContainer {
+  list-style-type: none;
+  /* Auto layout */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0px;
+  gap: 10px;
+}
+
+.icon {
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+
+.candidateSidebarItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.candidateSidebarActive {
+  /* Light purple */
+  background: rgba(135, 46, 146, 0.1);
+  border-radius: 6px;
+}
+
+.description {
+  padding-left: 10px;
+  height: 20px;
+  overflow: hidden;
+}
+
+.isActiveText {
+  background: linear-gradient(139.76deg, #6e0674 17.15%, #4660af 86.86%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.selectedMarker {
+  /* Rectangle */
+  width: 4px;
+  height: 39px;
+  /* Gradient */
+  background: linear-gradient(139.76deg, #6e0674 17.15%, #4660af 86.86%);
+  /* Inside auto layout */
+  align-self: center;
+  justify-content: flex-end;
+  order: 1;
+  flex-grow: 0;
+  margin-left: auto;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+#candidateSidebarMore {
+  list-style-type: none;
+  margin-top: 10%;
+}
+
+#candidateSidebarMore > p {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+#more {
+  height: 20px;
+  padding: 0px 20px;
+  margin-bottom: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height, or 154% */
+  color: #a1acb8;
+}
+
+.candidateSidebarRow {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0px;
+  height: 39px;
+  margin-left: 20px;
+  width: 85%;
+}
+
+.candidateSidebarRow:hover {
+  background: var(--hc);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.usertitle {
+  margin-top: 10px;
+  color: var(--h2);
+}
+
+.userId {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--ch);
+}
+
+@media screen and (max-width: 1199.98px) {
+  .candidateSidebar .userId,
+  .candidateSidebar .usertitle {
+    width: 0px;
+    display: none;
+  }
+
+  #logo {
+    width: 25px;
+    height: 25px;
+  }
+
+  .candidateSidebar {
+    width: 60px;
+    transition: all 0.8s ease;
+  }
+
+  .candidateSidebar:hover {
+    width: 248px;
+    z-index: 2;
+    transition: all 0.4s ease-in-out !important;
+  }
+
+  .description {
+    display: none;
+  }
+
+  .candidateSidebar:hover .description {
+    display: block;
+  }
+
+  .icon {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+
+  .candidateSidebar:hover #logo {
+    width: 45px;
+    height: 45px;
+    transition: all 0.5s ease;
+  }
+
+  .candidateSidebar:hover .candidateSidebarRow {
+    width: 90% !important;
+  }
+
+  .candidateSidebarRow {
+    padding: 0px 10px 0px 10px;
+    margin-left: 10px;
+    width: auto;
+  }
+
+  .progress {
+    display: none;
+  }
+}
+
+/* Progress tag */
+
+.progress {
+  background: rgba(255, 171, 0, 0.1);
+  mix-blend-mode: normal;
+  border-radius: 100px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 2px 9px;
+
+  color: #ffab00;
+}

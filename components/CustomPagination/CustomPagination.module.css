@@ -1,0 +1,106 @@
+.paginationBar {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginationBar a {
+  cursor: pointer;
+}
+
+.pageNavButton {
+  display: flex;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.pageButton {
+  /* Light purple */
+  background: #eef6ff;
+  border-radius: 4px;
+  height: 32px;
+  width: 32px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.pageButton a {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  text-align: center;
+
+  /* Black */
+  color: #212121;
+}
+
+.pageButton a:hover,
+.more a {
+  text-decoration: none;
+}
+
+.pageButton.selected {
+  background: #0063da;
+  /* border: 1px solid;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(139.76deg, #6e0674 17.15%, #4660af 86.86%); */
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to top, bottom, #6e0674 17.15%, #4660af 86.86%) 1 100% 50%;
+  border-radius: 4px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  text-align: center;
+}
+
+.pageButton.selected a {
+  color: #ffffff !important;
+}
+
+.more {
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  text-align: center;
+
+  /* Black */
+  color: #212121;
+
+  background: #eef6ff;
+  border-radius: 4px;
+  height: 32px;
+  width: 32px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+}
+
+.more a {
+  color: #212121;
+}
+/* .paginationBar:last-child a svg path:nth-child(2) {
+    fill: blue !important;
+    background:#f90905 !important
+} */
+.next:nth-of-type(7) {
+  background: #6e0674 !important;
+}

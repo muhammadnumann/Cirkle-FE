@@ -1,0 +1,91 @@
+:root {
+  --fg: #fff;
+  --bg: #f5f5f9;
+  --h2: #171821;
+  --h3: #000;
+  --span: #000;
+  --gray: #566a7f;
+
+  --br10: 8px 8px 8px 8px;
+
+  --font15: 15px;
+
+  --detailHeading: #212121;
+
+  --text-Nearly-black: #21222d;
+
+  --input-color-nearly-white: #f5f5f9;
+  --input-color-white: #fff;
+
+  /* sidebar  Color */
+  --sc: #697a8d;
+  --hc: #f4f6fa;
+  /* Content Heading Color */
+  --ch: #212121;
+
+  /* Detail Heading Css */
+  --globle-h2-c: #212121;
+  --globle-h2-fs: 18px;
+  --globle-h2-fw: 500;
+  --globle-h2-lh: 21px;
+  /*Detail Heading Css  End */
+
+  /* Detail Heading h3 Css */
+  --globle-h3-c: #212121;
+  --globle-h3-fs: 18px;
+  --globle-h3-fw: 500;
+  --globle-h3-lh: 21px;
+  /*Detail Heading Css  End */
+
+  /* Light gray paragrap */
+  --globle-lg-p-c: #b5b5c3;
+  --globle-lg-p-fs: 12px;
+  --globle-lg-p-fw: 500;
+  --globle-lg-p-lh: 21px;
+  /* Light gray paragrap End */
+
+  /* gradient button */
+  --globle-bg-gradient: linear-gradient(139.76deg, #6e0674 17.15%, #4660af 86.86%);
+
+  --globle-btn-fc: #fff;
+  --globle-btn-fs: 12px;
+  --globle-btn-fw: 600;
+  --globle-btn-lh: 21px;
+  --globle-btn-r: 6px;
+  --globle-btn-b: 0;
+  /* gradient button  ends */
+
+  --globle-bg-pink: rgba(135, 46, 146, 0.1);
+
+  --b-r-6: 6px;
+  --b-r-4: 4px;
+  /* Activity P color */
+  --pc: #212121;
+
+  --light-pink: rgba(135, 46, 146, 0.1);
+}
+
+[data-theme='dark'] {
+  --fg: #21222d;
+  --span: #747474;
+  --bg: #171821;
+  --h2: #87888c;
+  --h3: #fff;
+
+  --detailHeading: #87888c;
+
+  --input-color-nearly-white: #3b3b3b;
+  --input-color-white: #3b3b3b;
+  --text-Nearly-black: #e8e8e8;
+  --globle-h3-c: #87888c;
+  --globle-lg-p-c: #b5b5c3;
+
+  --gray: #87888c;
+  /* sidebar Color */
+  --sc: #697a8d;
+  --hc: #171821;
+  /* Content Heading Color */
+  --ch: #697a8d;
+  /* Activity P color */
+  --pc: #87888c;
+}

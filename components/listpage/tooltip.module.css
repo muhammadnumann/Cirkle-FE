@@ -1,0 +1,65 @@
+.wrapper {
+  width: 122px;
+  height: 92px;
+  display: grid;
+  /* grid-template:
+      'nav . header' min-content
+      'nav . content' 1fr
+      / min-content 0.02fr 1fr; */
+  grid-template:
+    '. . .' 0.18fr
+    '. tooltip .' 0.64fr
+    '. . .' 0.18fr
+    / 0.2fr 0.6fr 0.2fr;
+
+  background-color: white;
+  border-radius: 10px;
+}
+
+.wrapper > * {
+  min-width: 0px;
+}
+
+.tooltip {
+  grid-area: tooltip;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tooltipRow {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.tooltipRow:hover {
+  text-decoration: none;
+}
+
+.tooltip span {
+  padding-left: 15px;
+}
+
+.edit {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #000000;
+}
+
+.delete {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ff3e1d;
+}

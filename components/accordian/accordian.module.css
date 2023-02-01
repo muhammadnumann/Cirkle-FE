@@ -1,0 +1,19 @@
+.editBtn {
+  /* top: 15px;
+    right: 54px; */
+  border: 0;
+  outline: 0;
+  z-index: 2;
+}
+
+.arrow {
+  z-index: 0;
+}
+
+.editBtn span {
+  background: linear-gradient(139.76deg, #6e0674 17.15%, #4660af 86.86%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 18px;
+}

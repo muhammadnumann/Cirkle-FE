@@ -1,0 +1,6 @@
+.canceltext {
+  background: linear-gradient(139.76deg, #6e0674 17.15%, #4660af 86.86%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
